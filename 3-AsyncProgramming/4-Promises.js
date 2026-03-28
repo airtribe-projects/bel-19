@@ -87,6 +87,8 @@ const main = () => {
             })
             .catch((err) => {
                 console.log("Some Error Occurred [Catch 2]", err);
+            }).finally(() => {
+                
             })
 
 };

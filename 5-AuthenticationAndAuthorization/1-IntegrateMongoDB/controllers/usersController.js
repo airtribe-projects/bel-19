@@ -33,9 +33,3 @@ const loginUser = async (email, password) => {
 
 module.exports = {registerUser, loginUser};
 
-
-
-
-
-eyJ1c2VybmFtZSI6IjkwQGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYzODgwMTg0LCJleHAiOjE3NjM4ODM3ODR9
-eyJ1c2VybmFtZSI6IjU1QGV4YW1wbGUuY29tIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzYzODgwMTg0LCJleHAiOjE3NjM4ODM3ODR9

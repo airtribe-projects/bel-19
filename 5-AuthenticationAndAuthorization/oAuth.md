@@ -25,3 +25,6 @@ JWK --> Json Web Key (Public Key)
 **Authorization Server:** Google — authenticates the user and issues tokens.  
 **Resource Server:** Google Calendar API — hosts your calendar data.
 
+
+// IO is delegated to LibUV (UV threads)
+// cryto 

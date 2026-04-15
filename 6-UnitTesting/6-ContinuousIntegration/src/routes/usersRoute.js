@@ -1,0 +1,25 @@
+const express = require("express");
+const router = express.Router();
+const {registerUser, loginUser} = require("../controllers/usersController");
+
+// Create a new User
+// POST  /api/v1/users/
+// Body
+
+// Login a user
+// POST /api/v1/users
+// body (username, password)
+
+router.post("/register", async (req, res) => {
+    const user = req.body;
+    const dbUser = await registerUser(user);
+    res.status(201).send(dbUser);
+});
+
+router.post("/login",  async (req, res) => {
+    const { email, password } = req.body;
+    const token = await loginUser(email, password);
+    return res.status(200).send({token: token});
+});
+
+module.exports = router;

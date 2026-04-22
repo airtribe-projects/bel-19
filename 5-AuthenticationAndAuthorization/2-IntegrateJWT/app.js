@@ -17,7 +17,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 app.use(express.json());
-app.use(logger);
+// app.use(logger);
 app.use("/api/v1/courses", coursesRouter);
 app.use("/api/v1/users", usersRouter);
 

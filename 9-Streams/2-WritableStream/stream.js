@@ -1,6 +1,16 @@
 const fs = require('fs');
 // Create a writable stream to a file
 const writableStream = fs.createWriteStream('../output/writeResponse.txt');
+
+const readableStream = fs.createReadStream('../input/leviathan.txt', { encoding: 'utf8' , highWaterMark: 256 });
+
+// Handle data event
+readableStream.on('data', (chunk) => {
+    // Character count
+    console.log('$$Received chunk$$:', chunk);
+});
+
+
 // Write data to the stream
 
 for (let i=0; i< 1000000; i++) {

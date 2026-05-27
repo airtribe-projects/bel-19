@@ -28,8 +28,8 @@
 
 #### 3. Detail Design of the system (25-30 minutes)
 * Go entity by entity
-* Identify the attributes of the entitis
-* Idenitfy the behaviours of the entitis
+* Identify the attributes of the entities
+* Idenitfy the behaviours of the entities
 * Identify the relationship between entities
 
 * Top to Bottom Approach

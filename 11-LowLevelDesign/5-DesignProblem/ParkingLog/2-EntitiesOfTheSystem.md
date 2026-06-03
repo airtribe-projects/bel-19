@@ -1,14 +1,15 @@
 ### Major Entities of the System
-- ParkingLot
+- Vehicle
 - ParkingFloor
 - ParkingSpot
-- ParkingSpotType
+- ParkingLot
+- ParkingSpotType ==> Not Needed
 - SpotAllocation 
 - PaymentProcessor / Payment
 - EntryGate
 - ExitGate
-- Vehicle
-- VehicleType
+
+- VehicleType ==> Not Needed
 - Pricing / FeeCalculator
 - Ticket / Receipt 
 - DisplayPanel
